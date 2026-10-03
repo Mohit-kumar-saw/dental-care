@@ -46,11 +46,11 @@ const VALUES = [
 ];
 
 const MILESTONES = [
-  { year: "2010", event: "SmileCare founded with a vision for patient-first dentistry" },
-  { year: "2014", event: "Expanded to a full-service clinic with 5 specialists" },
-  { year: "2018", event: "Introduced laser dentistry and 3D digital imaging" },
+  { year: "2010", event: "Dental Clinic founded with a vision for patient-first dentistry" },
+  { year: "2014", event: "Expanded to a full-service clinic with expert specialists" },
+  { year: "2018", event: "Introduced advanced laser dentistry and 3D digital imaging" },
   { year: "2022", event: "Reached 5000+ happy patients milestone" },
-  { year: "2025", event: "Named Top Dental Clinic in Health City" },
+  { year: "2025", event: "Recognized among top dental care providers" },
 ];
 
 export default function AboutPageContent() {
@@ -58,8 +58,8 @@ export default function AboutPageContent() {
     <div className="w-full overflow-x-clip">
       <PageHero
         badge="Our Story"
-        title="About SmileCare"
-        subtitle="Dedicated to creating beautiful, healthy smiles for over a decade with passion, precision, and care."
+        title="About Dental Clinic"
+        subtitle="Dedicated to creating beautiful, healthy smiles for over a decade with passion, precision, and expert care."
         image={IMAGES.about}
       />
 
@@ -71,7 +71,7 @@ export default function AboutPageContent() {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[460px]">
                 <Image
                   src={IMAGES.clinic}
-                  alt="SmileCare clinic interior"
+                  alt="Dental Clinic interior"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -88,10 +88,8 @@ export default function AboutPageContent() {
                 <span className="text-gradient">Smiles & Care</span>
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                SmileCare Dental Clinic was founded with a simple mission: to provide
-                exceptional dental care in a warm, welcoming environment. What started
-                as a small practice has grown into a full-service dental center trusted
-                by thousands of families.
+                Dental Clinic was founded with a simple mission: to provide
+                exceptional dental care in a warm, welcoming environment under the leadership of expert surgeons Dr. Ashutosh Sinha & Dr. Abhilasha Sinha. What started as a focused practice has grown into a full-service dental center trusted by thousands of families.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
                 Our team uses the latest technology and techniques to ensure every patient
@@ -244,7 +242,7 @@ export default function AboutPageContent() {
               <ul className="space-y-4">
                 {[
                   "State-of-the-art equipment and sterilization",
-                  "Gentle, anxiety-free treatment approach",
+                  "Gentle, anxiety-free treatment approach by expert surgeons",
                   "Transparent pricing with no hidden fees",
                   "Flexible scheduling including evenings",
                   "Comprehensive care under one roof",
@@ -272,7 +270,7 @@ export default function AboutPageContent() {
                     </div>
                     <div>
                       <p className="text-white font-semibold">Award-Winning Care</p>
-                      <p className="text-teal-200 text-sm">Top rated clinic 2025</p>
+                      <p className="text-teal-200 text-sm">Top rated dental clinic</p>
                     </div>
                   </div>
                 </div>
@@ -286,10 +284,10 @@ export default function AboutPageContent() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <FadeIn>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Ready to Join the SmileCare Family?
+              Ready to Join Our Family?
             </h2>
             <p className="text-teal-100 mb-8 text-lg">
-              Book your first appointment and experience dentistry done right.
+              Book your first appointment with Dr. Ashutosh Sinha & Dr. Abhilasha Sinha and experience dentistry done right.
             </p>
             <Link
               href="/book"
