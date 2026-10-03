@@ -25,12 +25,12 @@ export const STATUS_COLORS: Record<BookingStatus, string> = {
 };
 
 export const CLINIC_INFO = {
-  name: "SmileCare Dental Clinic",
-  tagline: "Your Smile, Our Priority",
-  phone: "+1 (555) 123-4567",
-  email: "info@smilecare.com",
-  address: "123 Dental Avenue, Health City, HC 10001",
-  hours: "Mon–Sat: 8:00 AM – 7:00 PM",
+  name: "Dental Clinic",
+  tagline: "Expert Dental Care by Dr. Ashutosh Sinha & Dr. Abhilasha Sinha",
+  phone: "+91 8809917680",
+  email: "info@dentalclinic.com",
+  address: "Clinic Address, City, State - Pin",
+  hours: "Mon–Sat: 9:00 AM – 8:00 PM",
 };
 
 export const SERVICES = [

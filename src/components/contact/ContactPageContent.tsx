@@ -62,8 +62,8 @@ export default function ContactPageContent() {
     <div className="w-full overflow-x-clip">
       <PageHero
         badge="Get In Touch"
-        title="Contact Us"
-        subtitle="Have a question or need to schedule a visit? We're here to help — reach out anytime."
+        title="Contact Dental Clinic"
+        subtitle="Have a question or need to schedule a visit with Dr. Ashutosh Sinha & Dr. Abhilasha Sinha? We're here to help."
         image={IMAGES.clinic}
       />
 
@@ -99,7 +99,7 @@ export default function ContactPageContent() {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl mb-8 h-64">
                 <Image
                   src={IMAGES.about}
-                  alt="Contact SmileCare"
+                  alt="Contact Dental Clinic"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 40vw"
@@ -107,7 +107,7 @@ export default function ContactPageContent() {
                 <div className="absolute inset-0 bg-gradient-to-t from-teal-900/80 to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4">
                   <p className="text-white font-semibold">{CLINIC_INFO.name}</p>
-                  <p className="text-teal-200 text-sm">{CLINIC_INFO.tagline}</p>
+                  <p className="text-teal-200 text-sm">Expert Dental Care</p>
                 </div>
               </div>
 
@@ -115,15 +115,14 @@ export default function ContactPageContent() {
                 We&apos;d Love to Hear From You
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Whether you need to book an appointment, ask about a treatment, or
-                have an emergency — our friendly team is ready to assist you.
+                Whether you need to book an appointment with our expert surgeons or have an emergency, our team is ready to assist you.
               </p>
 
               <div className="space-y-3">
                 {[
                   "Response within 24 hours",
                   "Emergency same-day appointments",
-                  "Free initial consultation",
+                  "Expert consultation by Dr. Ashutosh & Dr. Abhilasha",
                 ].map((item) => (
                   <div key={item} className="flex items-center gap-2 text-sm text-gray-700">
                     <CheckCircle2 className="w-4 h-4 text-teal-500" />
@@ -239,7 +238,7 @@ export default function ContactPageContent() {
           <FadeIn>
             <h2 className="text-3xl font-bold mb-4">Need Urgent Dental Care?</h2>
             <p className="text-teal-100 mb-8 text-lg">
-              We offer same-day emergency appointments. Call us now.
+              We offer same-day emergency appointments. Call us now at {CLINIC_INFO.phone}.
             </p>
             <a
               href={`tel:${CLINIC_INFO.phone}`}
