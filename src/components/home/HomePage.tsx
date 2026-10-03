@@ -110,7 +110,7 @@ function HeroSection() {
               className="inline-flex max-w-full flex-wrap items-center gap-2 glass px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm text-teal-100 mb-4 sm:mb-6"
             >
               <BadgeCheck className="w-4 h-4 text-teal-300 shrink-0" />
-              Trusted Dental Care Since 2010
+              Expert Dental Surgeons: Dr. Ashutosh Sinha & Dr. Abhilasha Sinha
             </motion.div>
 
             <motion.h1
@@ -119,11 +119,11 @@ function HeroSection() {
               transition={{ duration: 0.7, delay: 0.1 }}
               className="text-3xl xs:text-4xl sm:text-5xl lg:text-7xl font-bold text-white leading-[1.1] mb-4 sm:mb-6 text-balance"
             >
-              Crafting{" "}
+              Advanced{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 via-cyan-300 to-emerald-300">
-                Perfect Smiles
+                Dental Clinic
               </span>{" "}
-              Every Day
+              Care
             </motion.h1>
 
             <motion.p
@@ -132,8 +132,7 @@ function HeroSection() {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="text-teal-100/90 text-base sm:text-lg lg:text-xl mb-6 sm:mb-8 leading-relaxed max-w-xl"
             >
-              Experience world-class dental care with cutting-edge technology,
-              expert specialists, and a spa-like atmosphere designed for your comfort.
+              Get professional dental care with modern treatments, experienced specialists, and dedicated oral health services. Call us at 8809917680.
             </motion.p>
 
             <motion.div
@@ -350,24 +349,21 @@ function AboutPreview() {
               </motion.div>
             </div>
           </FadeIn>
-
-          <FadeIn direction="right" delay={0.2}>
-            <SectionBadge icon={Building2}>About SmileCare</SectionBadge>
+<FadeIn direction="right" delay={0.2}>
+            <SectionBadge icon={Building2}>About Our Clinic</SectionBadge>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mt-3 mb-4 sm:mb-6 leading-tight">
               Where Advanced Science Meets{" "}
               <span className="text-gradient">Compassionate Care</span>
             </h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              For over 15 years, SmileCare Dental Clinic has been the trusted choice
-              for families seeking exceptional oral health care. Our state-of-the-art
-              facility combines cutting-edge technology with a warm, patient-first approach.
+              Led by Dr. Ashutosh Sinha and Dr. Abhilasha Sinha, our dental clinic has been dedicated to providing exceptional oral health care. Our professional facility combines expert treatment with a warm, patient-first approach.
             </p>
             <ul className="space-y-3 mb-8">
               {[
-                "Board-certified specialists in every department",
-                "Digital X-rays with 90% less radiation",
-                "Same-day emergency appointments available",
-                "Flexible payment plans & insurance accepted",
+                "Expert dental surgeons: Dr. Ashutosh Sinha & Dr. Abhilasha Sinha",
+                "Professional dental care and modern treatments",
+                "Same-day emergency support available",
+                "Call us directly at 8809917680",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-3 text-gray-700">
                   <CheckCircle2 className="w-5 h-5 text-teal-500 shrink-0" />
@@ -544,7 +540,7 @@ function ParallaxQuote() {
           <blockquote className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-light text-white leading-relaxed italic px-2">
             &ldquo;A smile is the universal welcome. We make sure yours is unforgettable.&rdquo;
           </blockquote>
-          <p className="text-teal-300 mt-6 font-medium">— Dr. Sarah Mitchell, Chief Dentist</p>
+          <p className="text-teal-300 mt-6 font-medium">— Dr. Ashutosh Sinha & Dr. Abhilasha Sinha, Dental Surgeons</p>
         </FadeIn>
       </div>
     </ParallaxSection>
@@ -553,18 +549,17 @@ function ParallaxQuote() {
 
 function TechnologySection() {
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-white">
+  <section className="py-16 sm:py-20 lg:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           <FadeIn direction="left">
-            <SectionBadge icon={Cpu}>Technology</SectionBadge>
+            <SectionBadge icon={Cpu}>Clinic Expertise</SectionBadge>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mt-3 mb-4 sm:mb-6">
-              Next-Gen Dental{" "}
-              <span className="text-gradient">Innovation</span>
+              Advanced Dental{" "}
+              <span className="text-gradient">Excellence</span>
             </h2>
             <p className="text-gray-600 leading-relaxed mb-6 sm:mb-8 text-sm sm:text-base">
-              We invest in the latest dental technology to ensure faster procedures,
-              better outcomes, and maximum comfort for every patient.
+              Led by Dr. Ashutosh Sinha and Dr. Abhilasha Sinha, our clinic offers reliable dental care, modern treatments, and personalized oral health solutions.
             </p>
             <div className="grid grid-cols-1 xs:grid-cols-2 gap-3 sm:gap-4">
               {TECH_FEATURES.map(({ title, desc, icon: Icon }) => (
@@ -588,7 +583,7 @@ function TechnologySection() {
             <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl h-56 sm:h-72 lg:h-[420px]">
               <Image
                 src={IMAGES.clinic}
-                alt="Modern dental technology"
+                alt="Modern dental clinic"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -600,8 +595,8 @@ function TechnologySection() {
                     <Sparkles className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p className="text-white font-semibold">AI-Powered Diagnostics</p>
-                    <p className="text-teal-200 text-sm">Detect issues before they become problems</p>
+                    <p className="text-white font-semibold">Dr. Ashutosh Sinha & Dr. Abhilasha Sinha</p>
+                    <p className="text-teal-200 text-sm">Professional Dental Care & Surgeons</p>
                   </div>
                 </div>
               </div>
