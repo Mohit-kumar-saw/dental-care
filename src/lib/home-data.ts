@@ -72,28 +72,27 @@ export const PROCESS_STEPS = [
 
 export const TESTIMONIALS = [
   {
-    name: "Sarah Johnson",
-    role: "Marketing Director",
-    text: "The most comfortable dental experience I've ever had. The team is incredibly gentle and the clinic feels like a spa!",
+    name: "Pooja Sharma",
+    role: "Verified Patient",
+    text: "The most comfortable dental experience I've ever had. Dr. Ashutosh Sinha and Dr. Abhilasha Sinha are incredibly gentle and expert in their work!",
     rating: 5,
-    avatar: "SJ",
+    avatar: "PS",
   },
   {
-    name: "Michael Chen",
+    name: "Rahul Verma",
     role: "Software Engineer",
-    text: "Got my dental implants here — flawless work. Dr. Mitchell explained everything clearly. Highly recommend SmileCare.",
+    text: "Got my dental treatment here — flawless work. The doctors explained everything clearly. Highly recommend this clinic.",
     rating: 5,
-    avatar: "MC",
+    avatar: "RV",
   },
   {
-    name: "Emily Rodriguez",
+    name: "Anita Kumari",
     role: "Teacher",
-    text: "My kids actually look forward to their dental visits now! The staff is warm, patient, and truly cares.",
+    text: "My family always visits here for oral care. The staff is warm, patient, and truly professional.",
     rating: 5,
-    avatar: "ER",
+    avatar: "AK",
   },
 ];
-
 export const FAQ_ITEMS = [
   {
     q: "Do you accept insurance?",
@@ -125,7 +124,7 @@ export const TECH_FEATURES = [
 ];
 
 export const TEAM_PREVIEW = [
-  { name: "Dr. Sarah Mitchell", role: "Chief Dentist", specialty: "Cosmetic Dentistry" },
-  { name: "Dr. James Chen", role: "Orthodontist", specialty: "Braces & Invisalign" },
-  { name: "Dr. Emily Rodriguez", role: "Endodontist", specialty: "Root Canal Expert" },
+  { name: "Dr. Ashutosh Sinha", role: "Dental Surgeon", specialty: "Advanced Dental Care" },
+  { name: "Dr. Abhilasha Sinha", role: "Dental Surgeon", specialty: "Professional Treatment" },
+  { name: "Dr. Rajesh Sharma", role: "Consultant Orthodontist", specialty: "Braces & Aligners" },
 ];

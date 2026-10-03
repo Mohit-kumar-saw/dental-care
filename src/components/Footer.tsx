@@ -22,11 +22,10 @@ export default function Footer() {
               <div className="w-10 h-10 bg-gradient-to-br from-teal-500 to-cyan-600 rounded-xl flex items-center justify-center">
                 <Smile className="w-6 h-6 text-white" />
               </div>
-              <span className="font-bold text-white text-lg">{CLINIC_INFO.name}</span>
+              <span className="font-bold text-white text-lg">Dental Clinic</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-5">
-              Providing exceptional dental care with modern technology and a
-              compassionate team dedicated to your oral health.
+              Providing professional dental care with modern treatments and expert surgeons Dr. Ashutosh Sinha & Dr. Abhilasha Sinha dedicated to your oral health.
             </p>
             <Link
               href="/book"
@@ -91,8 +90,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 shrink-0 text-teal-500" />
-                <a href={`tel:${CLINIC_INFO.phone}`} className="text-gray-400 hover:text-teal-400 transition-colors">
-                  {CLINIC_INFO.phone}
+                <a href="tel:8809917680" className="text-gray-400 hover:text-teal-400 transition-colors">
+                  8809917680
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -110,7 +109,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-500">
-          <p>© {new Date().getFullYear()} {CLINIC_INFO.name}. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Dental Clinic. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="/login" className="hover:text-teal-400 transition-colors">
               Admin

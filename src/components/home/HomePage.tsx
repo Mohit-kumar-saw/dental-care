@@ -763,28 +763,27 @@ function FinalCTA() {
       <FloatingOrb className="w-40 sm:w-64 h-40 sm:h-64 bg-cyan-300/10 bottom-0 left-0 sm:left-20" delay={1.5} />
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <FadeIn>
+       <FadeIn>
           <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6 leading-tight px-2">
             Ready for Your Best Smile?
           </h2>
           <p className="text-teal-100 text-base sm:text-lg mb-8 sm:mb-10 max-w-xl mx-auto px-2">
-            Join 5000+ patients who trust SmileCare. Book your free consultation today
-            and take the first step toward exceptional oral health.
+            Join hundreds of patients who trust Dr. Ashutosh Sinha and Dr. Abhilasha Sinha. Book your consultation today and take the first step toward exceptional oral health.
           </p>
           <div className="flex flex-col xs:flex-row flex-wrap justify-center gap-3 sm:gap-4 px-2">
             <Link
               href="/book"
               className="inline-flex items-center justify-center gap-2 bg-white text-teal-700 px-6 sm:px-8 py-3.5 sm:py-4 rounded-2xl font-bold shadow-xl hover:scale-[1.02] sm:hover:scale-105 transition-transform w-full xs:w-auto"
             >
-              Book Free Consultation
+              Book Appointment
               <ArrowRight className="w-5 h-5" />
             </Link>
             <a
-              href={`tel:${CLINIC_INFO.phone}`}
+              href="tel:8809917680"
               className="inline-flex items-center justify-center gap-2 glass text-white px-6 sm:px-8 py-3.5 sm:py-4 rounded-2xl font-semibold hover:bg-white/15 transition-colors w-full xs:w-auto text-sm sm:text-base"
             >
               <Phone className="w-5 h-5 shrink-0" />
-              <span className="truncate">{CLINIC_INFO.phone}</span>
+              <span className="truncate">8809917680</span>
             </a>
           </div>
         </FadeIn>
